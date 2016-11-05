@@ -1,0 +1,3 @@
+a) malloc in der schleife => i kriegt immer einen neuen speicherbereich was eventuell zu einem leak führen kann.
+b) if (i == NULL), allerdings ist kein i existent. Eigentlich if (d == NULL).
+c) free(*i) statt free (i)
